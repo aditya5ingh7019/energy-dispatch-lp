@@ -34,9 +34,8 @@ achieving 29% peak-hour grid reduction.
 pip install pulp numpy pandas matplotlib openpyxl kagglehub
 
 ## Data
-Download the dataset automatically via Kaggle API:
-import kagglehub
-path = kagglehub.dataset_download("shubhamvashisht/hourly-load-india-electrical-load-forecasting")
+Download the dataset from Kaggle and place it at `data/hourlyLoadDataIndia.xlsx`:
+https://www.kaggle.com/datasets/shubhamvashisht/hourly-load-india-electrical-load-forecasting
 
 Or download manually from:
 https://www.kaggle.com/datasets/shubhamvashisht/hourly-load-india-electrical-load-forecasting
